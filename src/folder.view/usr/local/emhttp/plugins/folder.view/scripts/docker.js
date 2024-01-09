@@ -1136,7 +1136,7 @@ const addDockerFolderContext = (id) => {
             subMenu: globalFolders[id].actions.map((e, i) => {
                 return {
                     text: e.name,
-                    icon: (e.type === 0) ? 'fa-cogs' : ((e.type === 1) ? 'fa-file-text-o' : 'fa-bolt'),
+                    icon: (e.script_icon != '') ? e.script_icon : (e.type === 0) ? 'fa-cogs' : ((e.type === 1) ? 'fa-file-text-o' : 'fa-bolt'),
                     action: (e) => { e.preventDefault(); folderCustomAction(id, i); }
                 }
             })
