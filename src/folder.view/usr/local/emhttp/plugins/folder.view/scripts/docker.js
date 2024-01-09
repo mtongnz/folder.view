@@ -1045,7 +1045,22 @@ const addDockerFolderContext = (id) => {
         above: false
     });
 
-    if(!globalFolders[id].settings.default_action) {
+    if(globalFolders[id].settings.override_default_actions && globalFolders[id].actions && globalFolders[id].actions.length) {
+        opts.push(
+            ...globalFolders[id].actions.map((e, i) => {
+                return {
+                    text: e.name,
+                    icon: (e.type === 0) ? 'fa-cogs' : ((e.type === 1) ? 'fa-file-text-o' : 'fa-bolt'),
+                    action: (e) => { e.preventDefault(); folderCustomAction(id, i); }
+                }
+            })
+        );
+    
+        opts.push({
+            divider: true
+        });
+
+    } else if(!globalFolders[id].settings.default_action) {
         opts.push({
             text: $.i18n('start'),
             icon: 'fa-play',
@@ -1110,7 +1125,7 @@ const addDockerFolderContext = (id) => {
         action: (e) => { e.preventDefault(); rmFolder(id); }
     });
 
-    if(globalFolders[id].actions && globalFolders[id].actions.length) {
+    if(!globalFolders[id].settings.override_default_actions && globalFolders[id].actions && globalFolders[id].actions.length) {
         opts.push({
             divider: true
         });

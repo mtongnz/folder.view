@@ -140,6 +140,8 @@
     "custom-actions-set-3": "Resume",
     "custom-actions-cts": "Containers:",
     "custom-actions-script": "Script:",
+    "override-default-actions": "Override default actions:",
+    "override-default-actions-tooltip": "Will remove the default menu and replace it with the custom actions set below.",
     "default-action": "Hide default action button:",
     "default-action-tooltip": "Will remove the default action button like start, stop and restart from the folder context menu.",
     "customizations": "Customizations",

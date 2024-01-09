@@ -140,6 +140,8 @@
     "custom-actions-set-3": "Riprendi",
     "custom-actions-cts": "Conatiners:",
     "custom-actions-script": "Script:",
+    "override-default-actions": "Sostituisci le azioni predefinite:",
+    "override-default-actions-tooltip": "Rimuoverà il menu predefinito e lo sostituirà con le azioni personalizzate impostate di seguito.",
     "default-action": "Nascondi i bottoni azione di base:",
     "default-action-tooltip": "Riumove i bottoni come avvia, ferma e riavvia dal menu contestuale della cartella",
     "customizations": "Customizations",

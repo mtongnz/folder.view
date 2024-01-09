@@ -140,6 +140,8 @@
     "custom-actions-set-3": "Reanudar",
     "custom-actions-cts": "Contenedores:",
     "custom-actions-script": "Script:",
+    "override-default-actions": "Anular acciones predeterminadas:",
+    "override-default-actions-tooltip": "Eliminará el menú predeterminado y lo reemplazará con las acciones personalizadas establecidas a continuación.",
     "default-action": "Ocultar botones de acciones predeterminadas:",
     "default-action-tooltip": "Eliminará los botones del menú contextual de la carpeta (iniciar, detener, reiniciar, etc).",
     "customizations": "Personalizaciones",

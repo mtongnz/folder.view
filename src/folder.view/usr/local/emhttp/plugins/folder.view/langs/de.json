@@ -140,6 +140,8 @@
     "custom-actions-set-3": "Fortsetzen",
     "custom-actions-cts": "Container:",
     "custom-actions-script": "Skript:",
+    "override-default-actions": "Standardaktionen überschreiben:",
+    "override-default-actions-tooltip": "Entfernt das Standardmenü und ersetzt es durch die unten festgelegten benutzerdefinierten Aktionen.",
     "default-action": "Standard-Aktionsbutton ausblenden:",
     "default-action-tooltip": "Entfernt die Standard-Aktionsbuttons wie Start, Stopp und Neustart aus dem Ordner-Kontextmenü.",
     "customizations": "Benutzeranpassungen",

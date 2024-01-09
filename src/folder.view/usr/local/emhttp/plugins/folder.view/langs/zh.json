@@ -140,6 +140,8 @@
     "custom-actions-set-3": "继续",
     "custom-actions-cts": "容器：",
     "custom-actions-script": "脚本：",
+    "override-default-actions": "覆盖默认操作:",
+    "override-default-actions-tooltip": "将删除默认菜单并将其替换为下面设置的自定义操作.",
     "default-action": "隐藏默认操作按钮：",
     "default-action-tooltip": "将从文件夹中移除默认的操作按钮，如启动、停止和重启。",
     "customizations": "自定义",
