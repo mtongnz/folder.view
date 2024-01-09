@@ -153,6 +153,7 @@
     "action-add-btn": "Hinzufügen",
     "action-edit-btn": "Speichern",
     "custom-actions-script-sync": "Sync:",
+    "custom-actions-arguments": "Argumente:",
     "preview-text-width": "Textbreite:",
     "preview-text-width-tooltip": "Begrenzt die Breite des Containernamens in der Vorschau. <br>Zum Beispiel <b>12px</b>, <b>1rem</b> (<a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/length\">Hier</a> findest du mehr Einheiten). <br>Lass das Feld leer und es gibt keine Begrenzung."
 }
