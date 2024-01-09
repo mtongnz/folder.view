@@ -523,6 +523,12 @@ Markdown="false"
                 </dd>
             </dl>
         </div>
+        <dl>
+            <dt data-i18n="actions-icon">Icon:</dt>
+            <dd>
+                <input type="text" name="action_script_icon">
+            </dd>
+        </dl>
     </div>
     <div class="custom" style="display: none;" constraint="action-type-1">
         <dl>
@@ -535,6 +541,12 @@ Markdown="false"
             <dt data-i18n="custom-actions-arguments">Arguments:</dt>
             <dd>
                 <input type="text" name="action_script_args">
+            </dd>
+        </dl>
+        <dl>
+            <dt data-i18n="actions-icon">Icon:</dt>
+            <dd>
+                <input type="text" name="action_script_icon">
             </dd>
         </dl>
         <dl>

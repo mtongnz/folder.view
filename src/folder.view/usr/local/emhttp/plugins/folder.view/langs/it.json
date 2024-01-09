@@ -156,6 +156,7 @@
     "action-edit-btn": "Salva",
     "custom-actions-script-sync": "Sync:",
     "custom-actions-arguments": "argomenti:",
+    "actions-icon": "Icon:",
     "preview-text-width": "Lunghezza del testo:",
     "preview-text-width-tooltip": "Limita la lunghezza del testo nella preview. <br>Esempio: <b>12px</b>, <b>1rem</b> (<a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/length\">Qui</a> trovi più informazioni). <br>Lasciare vuoto per non impostare un limite."
 }
