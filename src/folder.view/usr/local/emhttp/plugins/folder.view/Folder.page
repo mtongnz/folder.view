@@ -519,6 +519,12 @@ Markdown="false"
             </dd>
         </dl>
         <dl>
+            <dt data-i18n="custom-actions-script">Arguments:</dt>
+            <dd>
+                <input type="text" name="action_script_args">
+            </dd>
+        </dl>
+        <dl>
             <dt data-i18n="custom-actions-script-sync">Sync:</dt>
             <dd>
             <input class="basic-switch-sync" name="action_script_sync" type="checkbox" style="display: none;" />

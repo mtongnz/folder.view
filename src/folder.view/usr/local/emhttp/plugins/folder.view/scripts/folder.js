@@ -360,6 +360,7 @@ const customAction = (action = undefined) => {
         }
     } else if(config.type === 1){
         dialog.find('[name="action_script"]').val(config.script || '');
+        dialog.find('[name="action_script_args"]').val(config.script_args || '');
     }
     buttons = {};
     buttons[(action !== undefined) ? $.i18n('action-edit-btn') : $.i18n('action-add-btn')] = function() {
@@ -378,6 +379,7 @@ const customAction = (action = undefined) => {
             }
         } else if(cfg.type === 1) {
             cfg.script = that.find('[name="action_script"]').val();
+            cfg.script_args = that.find('[name="action_script_args"]').val();
             cfg.script_sync = that.find('[name="action_script_sync"]').prop("checked");
         }
         if(action !== undefined) {
