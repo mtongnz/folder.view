@@ -15,8 +15,8 @@ Manual for now, need to figure out how to submit to Unraid app store.
 If you already have this plugin setup go to Plugins -> FolderView and "Export All" your current settings!
 
 ### Manual installation
-1. Copy the `folder.view.plg` file to `/usr/local/emhttp/plugins/` folder.
-2. Copy the latest 'folder.view-<date>.txz' from archive folder to `/usr/local/emhttp/plugins/folder.view/` folder.
+1. Copy the `folder.view.plg` file to `/boot/config/plugins/` folder.
+2. Copy the latest 'folder.view-<date>.txz' from archive folder to `/boot/config/plugins/folder.view/` folder.
 3. In Unraid webui go to Plugins -> Install Plugin tab, click on the folder `config` -> `plugins` -> `folder.view.plg` and press install button.
 
 ## Support & Feedback
