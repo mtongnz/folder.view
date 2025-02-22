@@ -1,25 +1,31 @@
 Menu="Docker"
-Icon="server"
+Icon="folder-open-o"
+Type="xmenu"
+Tabs="true"
+Markdown="false"
 ---
-
-<? $type = 'docker' ?>
-<? echo ($display['theme'] === 'gray' || $display['theme'] === 'azure') ? '<style>.nav-item.AutostartOrder a::before { content: \'\e93b\'; }</style>' : ''?>
+<?php
+$type = 'docker';
+require_once('/usr/local/emhttp/plugins/folder.view/langs/script.php');
+?>
 <script>
-    folderi18n = () => {
-        $(`<input type="button" onclick="createFolderBtn()" value="Add Folder" data-i18n="[value]add-folder" style="display:none">`).insertAfter('table#docker_containers');
-        $(`<div class="nav-item AutostartOrder util"><a class="hand" onclick="return false;" title="${$.i18n('correct-autostart')}"><b class="icon-u-polygon system green-text"></b><span>${$.i18n('correct-autostart')}</span></a></div>`).insertBefore('div.nav-item.LockButton.util');
-        $('[type="button"]').i18n();
-    }
+    $(document).ready(() => {
+        folderi18n = () => {
+            $(`<input type="button" onclick="createFolderBtn()" value="Add Folder" data-i18n="[value]add-folder">`).insertAfter('table#docker_containers');
+            $('body').i18n();
+            $('[type="button"]').i18n();
+        }
+        folderi18n();
+    });
 </script>
-<? require_once('/usr/local/emhttp/plugins/folder.view/langs/script.php') ?>
 <script src="/plugins/folder.view/scripts/include/customEvents.js"></script>
-<? require_once('/usr/local/emhttp/plugins/folder.view/scripts/custom.php') ?>
+<?php require_once('/usr/local/emhttp/plugins/folder.view/scripts/custom.php') ?>
 
 <script src="/plugins/folder.view/scripts/include/chart.min.js"></script>
 <script src="/plugins/folder.view/scripts/include/moment.min.js"></script>
 <script src="/plugins/folder.view/scripts/include/chartjs-adapter-moment.min.js"></script>
 <script src="/plugins/folder.view/scripts/include/chartjs-plugin-streaming.min.js"></script>
-<script defer src="<?autov('/plugins/folder.view/scripts/docker.js')?>"></script>
+<script defer src="<?php autov('/plugins/folder.view/scripts/docker.js')?>"></script>
 
-<link rel="stylesheet" href="<?autov('/plugins/folder.view/styles/docker.css')?>">
-<? require_once('/usr/local/emhttp/plugins/folder.view/styles/custom.php') ?>
+<link rel="stylesheet" href="<?php autov('/plugins/folder.view/styles/docker.css')?>">
+<?php require_once('/usr/local/emhttp/plugins/folder.view/styles/custom.php') ?>

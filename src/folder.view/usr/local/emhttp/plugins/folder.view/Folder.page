@@ -1,4 +1,8 @@
+Menu="Utilities"
 Title="Folder"
+Icon="folder-open-o"
+Type="xmenu"
+Tabs="true"
 Markdown="false"
 ---
 

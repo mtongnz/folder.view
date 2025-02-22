@@ -1,12 +1,38 @@
-# FolderView
+# FolderView For Unraid 7
+
+## What is FolderView?
+
+Original creator: [**scolcipitato**](https://github.com/scolcipitato/folder.view)
 
 FolderView lets you create folders for grouping Dockers and VMs together to help with organization. Especially useful if you're using docker-compose.
 Getting Started: A new button named "Add Folder" will appear at the bottom of the docker/VM tab next to "Add Container/VM".
 
-### Special thanks
-- **crafty35a** for testing the plugin
-- [**soonic6**](https://github.com/soonic6) for testing the plugin
+## Installation
 
+Manual for now, need to figure out how to submit to Unraid app store.
+
+### Backup
+If you already have this plugin setup go to Plugins -> FolderView and "Export All" your current settings!
+
+### Manual installation
+1. Copy the `folder.view.plg` file to `/usr/local/emhttp/plugins/` folder.
+2. Copy the latest 'folder.view-<date>.txz' from archive folder to `/usr/local/emhttp/plugins/folder.view/` folder.
+3. In Unraid webui go to Plugins -> Install Plugin tab, click on the folder `config` -> `plugins` -> `folder.view.plg` and press install button.
+
+## Support & Feedback
+If you have any questions or issues, please file an issue on [GitHub](https://github.com/VladoPortos/folder.view/issues).
+
+---
+
+## ☕ Buy Me a Coffee (or a Beer!)
+
+If you like this project and want to support my caffeine-fueled coding sessions, you can buy me a coffee (or a beer, I won't judge! 🍻) on Ko-fi:
+
+[![Support me on Ko-fi](https://storage.ko-fi.com/cdn/kofi_button.png)](https://ko-fi.com/vladoportos)
+
+Every donation helps keep this project going and ensures more awesome updates in the future! 😃
+
+---
 
 ### Libraries used in this project:
 - [Chart.js](https://www.chartjs.org/)
@@ -15,3 +41,4 @@ Getting Started: A new button named "Add Folder" will appear at the bottom of th
 - [chartjs-plugin-streaming](https://github.com/nagix/chartjs-plugin-streaming)
 - [jquery.i18n](https://github.com/wikimedia/jquery.i18n)
 - [jQuery UI MultiSelect](https://github.com/ehynds/jquery-ui-multiselect-widget)
+
