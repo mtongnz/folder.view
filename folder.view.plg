@@ -6,12 +6,16 @@
 <!ENTITY launch "Settings/FolderView">
 <!ENTITY plugdir "/usr/local/emhttp/plugins/&name;">
 <!ENTITY pluginURL "https://raw.githubusercontent.com/&github;/main/&name;.plg">
-<!ENTITY version "2025.02.22">
-<!ENTITY md5 "ef643a9f1d1bd1bb9790ff1a5a06e1e2">
+<!ENTITY version "2025.02.24">
+<!ENTITY md5 "c615712c0b192b162cd104d11d5c3dde">
 ]>
 
 <PLUGIN name="&name;" author="&author;" version="&version;" launch="&launch;" pluginURL="&pluginURL;" icon="folder-open-o" support="https://forums.unraid.net/topic/142782-plugin-folderview/" min="7.0.0">
     <CHANGES>
+
+###2025.02.24
+- Fix: removed old file that cuased folder to show in settings.
+
 ###2025.02.22
 - Fix for Unraid v7
 
