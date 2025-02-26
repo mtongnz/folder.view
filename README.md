@@ -22,6 +22,9 @@ If you already have this plugin setup go to Plugins -> FolderView and "Export Al
 ## Support & Feedback
 If you have any questions or issues, please file an issue on [GitHub](https://github.com/VladoPortos/folder.view/issues).
 
+## Contributors
+- [TurboStreetCar](https://github.com/TurboStreetCar) - Contributed improved folder.js implementation for compatibility with Unraid 7 and older versions
+
 ---
 
 ## ☕ Buy Me a Coffee (or a Beer!)
@@ -41,4 +44,3 @@ Every donation helps to proofe to my wife that I'm not a complete idiot :D
 - [chartjs-plugin-streaming](https://github.com/nagix/chartjs-plugin-streaming)
 - [jquery.i18n](https://github.com/wikimedia/jquery.i18n)
 - [jQuery UI MultiSelect](https://github.com/ehynds/jquery-ui-multiselect-widget)
-
