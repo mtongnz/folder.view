@@ -1,5 +1,4 @@
 Menu="Dashboard"
-Title="Dashboard Folders"
 Icon="folder-open-o"
 Type="xmenu"
 Tabs="true"
