@@ -26,6 +26,15 @@ docker.json  folder.view-2025.02.26.txz  scripts/  styles/  version  vm.json
 root@PlexServer:/boot/config/plugins/folder.view# 
 ```
 
+### Easy Manual installation
+
+Use link: https://raw.githubusercontent.com/VladoPortos/folder.view/refs/heads/main/folder.view.plg
+
+That link can be posted directly into the plugin install without needing to copy it to the filesystem beforehand.
+
+[![Install FolderView](img/plugin_install.png)]
+
+
 ### Manual installation
 1. Copy the `folder.view.plg` file to `/boot/config/plugins/` folder.
 2. Copy the latest 'folder.view-<date>.txz' from archive folder to `/boot/config/plugins/folder.view/` folder.
