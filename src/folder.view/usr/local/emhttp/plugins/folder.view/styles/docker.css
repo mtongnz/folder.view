@@ -48,11 +48,24 @@
     margin-top: 7px;
 }
 
+.folder-preview-wrapper .inner {
+    width: 12em;
+    overflow: hidden;
+    position: relative;
+}
+
 .folder-preview-wrapper .inner > span.appname {
     display: inline-block;
     overflow: clip;
     white-space: nowrap;
     word-break: break-all;
+}
+
+.folder-preview-wrapper .inner > span.state {
+    display: inline-block;
+    overflow: hidden;
+    height: 1em;
+    width: 6em;
 }
 
 .folder-preview-divider:not(:last-child) {
@@ -65,8 +78,23 @@
 }
 
 .folder-element-custom-btn {
-    margin-left: 0.5em;
+    /* margin-left: 0.5em; */
+    position: absolute;
+    bottom: 0;
 }
+
+.folder-preview-wrapper .inner > span.folder-element-webui {
+    right: 2.6em;
+}
+
+.folder-preview-wrapper .inner > span.folder-element-console {
+    right: 1.3em;
+}
+
+.folder-preview-wrapper .inner > span.folder-element-logs {
+    right: 0;
+}
+
 
 div.folder-preview img.img {
     margin-right: 4px;
